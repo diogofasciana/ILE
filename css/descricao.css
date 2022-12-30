@@ -1,0 +1,33 @@
+.descricao  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #CBDDD1;
+    text-align: center;
+    background-color: #292828;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.descricao__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.descricao__subtitulo{
+    padding: 0 0 1.5rem 0;
+}
+
+.descricao__texto {
+    font-size: 1.3rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
+
+.descricao__botao {
+    width: 100%;
+    text-decoration: none;
+    color: #CBDDD1;
+}
