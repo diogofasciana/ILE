@@ -39,13 +39,6 @@
     text-decoration: none;
 }
 
-.destaques__botao {
-    color:black;
-    border-color: black;
-    margin: 0 auto;
-    text-decoration: none
-}
-
 .destaques__link{
     text-decoration: underline;
     text-align: center;
