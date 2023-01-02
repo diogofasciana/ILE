@@ -17,7 +17,8 @@
     background-repeat: no-repeat;
     background-position: top 1.25rem left 2.5rem;
 
-    padding: 2rem 0 2rem 5rem;
+    padding: 2rem;
+    text-align: justify;
 }
 
 .item__titulo {
@@ -31,4 +32,6 @@
 
 .item__texto {
     line-height: normal;
+    font-weight: 600;
+    color: gray;
 }
