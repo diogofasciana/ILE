@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #CBDDD1;
+    color: black;
     text-align: center;
-    background-color: #292828;
+    background-color: white;
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
@@ -21,13 +21,14 @@
 }
 
 .descricao__texto {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: normal;
     margin: 0 auto 2.5rem;
+    font-weight: 600;
 }
 
 .descricao__botao {
     width: 100%;
     text-decoration: none;
-    color: #CBDDD1;
+    color: black;
 }
