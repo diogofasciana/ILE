@@ -32,3 +32,9 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (width: 768px) {
+    .descricao__texto{
+        max-width: 600px;
+    }
+}

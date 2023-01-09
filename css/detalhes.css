@@ -44,7 +44,13 @@
 }
 
 .detalhes__contato-email {
-    color: var(--fonte-link);
     text-decoration: underline;
     display: block;
+}
+
+@media screen and (min-width: 768px){
+    .detalhes__contato-email {
+        display: inline-block;
+    }
+    
 }
