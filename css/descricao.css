@@ -33,8 +33,21 @@
     color: black;
 }
 
-@media screen and (width: 768px) {
+@media screen and (min-width: 768px) {
     .descricao__texto{
         max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao{
+        background-image: url(../img/cabecalho.png);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }    
+
+    .descricao__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
     }
 }
